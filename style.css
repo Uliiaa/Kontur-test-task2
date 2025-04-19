@@ -1,0 +1,111 @@
+body {
+    line-height: 1;
+    word-wrap: break-word;
+}
+
+.document-content {
+    width: 770px;
+    margin: 0 auto;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+h1 {
+    color: #2e75b5;
+    font-family: serif, 'Calibri';
+    font-size: 16pt;
+    font-weight: 400;
+}
+
+p {
+    color: #000000;
+    font-family: serif, 'Times New Roman';
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+a {
+    color: #0563c1;
+    font-family: 'Quattrocento Sans';
+    font-size: 13.5pt;
+    font-weight: 400;
+}
+
+.low-height-links-paragraph a {
+    font-size: 12pt;
+}
+
+h2 {
+    color: #2e75b5;
+    font-family: serif, 'Calibri';
+    font-size: 13pt;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    text-align: left;
+    font-family: 'Calibri' serif;
+    font-size: 11pt;
+    margin-left: 36pt;
+}
+
+strong {
+    font-weight: 700;
+    font-family: 'Quattrocento Sans';
+    font-size: 12pt;
+}
+
+.external-list {
+    list-style-position: inside;
+}
+
+.disk-marker::before {
+    content: "● ";
+}
+
+.circle-marker::before {
+    content: "○ ";
+}
+
+table {
+    border: 1px solid #dfdfdf;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding: 8px;
+    vertical-align: top;
+    border: 1px solid #dfdfdf;
+    font-weight: normal;
+}
+
+td {
+    border: 1px solid #dfdfdf;
+    padding: 8px;
+    vertical-align: top;
+}
+
+h3 {
+    color: #1e4d78;
+    font-family: serif, 'Calibri';
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.image {
+    margin-top: 36px;
+}
+
+.table p {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+}
